@@ -42,10 +42,10 @@ function initializeClock(id, endtime) {
 // people in different timezones will see different dates unless you use UTC
 // Searcn your timezone in UTC
 // then use this format:
-var deadline = new Date(Date.parse('2022-09-16T14:55:00Z'));
+var deadline = new Date(Date.parse('2022-09-16T13:55:00Z'));
 
 if (new Date() > deadline) {
-  alert('Ape Attack! \n Buy a Single Ape Now!!!');
+  alert('Ape Attack! \n Buy a Single AMC every Friday @ 9:55am ET!');
 }
 
 initializeClock('clockdiv', deadline);
